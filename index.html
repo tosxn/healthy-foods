@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Healthy Foods</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="menu-container">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger">
+          <div></div>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+      <nav>
+          <a href="#" class="logo"><span>Healthy</span>Foods</a>
+          <ul>
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+      </nav>
+
+      <main>
+          <div class="main-text" id="slideshowText">
+                                    <!-- TEXT GROUP 1 -->
+                <div class="active">
+                    <h2>
+                        Eat Healthy <br>
+                        Stay Healthy
+                    </h2>
+    
+                    <p>
+                        Eating a healthy diet is not about strict limitations, staying unrealistically thin or depriving yourself of the foods you love. Rather, it’s about feeling great, having more energy and improving your health
+                    </p>
+    
+                    <a href="#">Read More</a>
+                </div>   
+                                    <!-- TEXT GROUP 2 -->
+                <div>
+                    <h2>
+                        Good Food <br>
+                        Good Mood
+                    </h2>
+    
+                    <p>
+                        Eating a healthy diet is not about strict limitations, staying unrealistically thin or depriving yourself of the foods you love. Rather, it’s about feeling great, having more energy and improving your health
+                    </p>
+    
+                    <a href="#">Read More</a>
+                </div>   
+                                    <!-- TEXT GROUP 3 -->
+                <div>
+                    <h2>
+                        Eat Veggies <br>
+                        Become Jiggy
+                    </h2>
+    
+                    <p>
+                        Eating a healthy diet is not about strict limitations, staying unrealistically thin or depriving yourself of the foods you love. Rather, it’s about feeling great, having more energy and improving your health
+                    </p>
+    
+                    <a href="#">Read More</a>
+                </div>   
+          </div>
+
+          <div class="main-image" id="slideshow">
+                <img src="img/image.jpg" alt="foods" class="active">
+                <img src="img/image-2.jpg" alt="foods">
+                <img src="img/image-3.jpg" alt="foods">
+          </div>
+      </main>
+
+      <div class="icons">
+          <ul class="icons social-media">
+              <li><a href="#"><img src="img/facebook.png" alt="facebook"></a></li>
+              <li><a href="#"><img src="img/instagram.png" alt="instagram"></a></li>
+              <li><a href="#"><img src="img/twitter.png" alt="twitter"></a></li>
+          </ul>
+
+          <ul class="controls">
+                <li><a href="#"><img src="img/left-arrow.png" alt="left-arrow" onclick="prevSlide();prevSlideText();"></a></li>
+                <li><a href="#"><img src="img/right-arrow.png" alt="right-arrow" onclick="nextSlide();nextSlideText();"></a></li>
+          </ul>
+      </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
